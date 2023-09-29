@@ -1,0 +1,12 @@
+:root {
+  --bs-primary: #82a1ff;
+  --bs-secondary: #292f77;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin-bottom: 4rem;
+}

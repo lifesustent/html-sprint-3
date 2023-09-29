@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LifeSustent</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800&display=swap" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/title.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/hero.css">
+  <link rel="stylesheet" href="./css/stakeholder.css">
+  <link rel="stylesheet" href="./css/cards.css">
+  <link rel="stylesheet" href="./css/fill.css">
+  <link rel="stylesheet" href="./css/usecase.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+  <main>
+    <header class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">
+            <img src="./assets/img/logo.svg" alt="LifeSustent" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav flex-fill mb-2 mb-lg-0 d-flex justify-content-end align-content-center align-items-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link" aria-current="page">Projeto</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Caso de uso</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contato</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn btn-primary rounded-pill" id="header-button">Começar</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container d-flex">
+      <div class="row align-items-center p-4 flex-fill">
+        <div class="col-md col-sm-12">
+          <h1 id="hero-title" class="text-secondary">Uma solução sustentável para cidades inteligentes</h1>
+          <h4 id="hero-subtitle" class="mb-4">Descubra como podemos ajudar sua cidade a monitorar e melhorar a
+            qualidade do ar, da água e a sonoridade em tempo real, impulsionando o desenvolvimento de
+            ambientes urbanos saudáveis e sustentáveis.</h4>
+          <button id="hero-button" class="btn btn-primary">Solcitar demonstração</button>
+        </div>
+        <div class="col-md col-sm-12 pt-2">
+          <img class="img-fluid" src="assets/img/hero-software.svg" alt="Uma solução de software sustentável" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div id="inner-stakeholder" class="d-flex flex-column align-items-center justify-content-center">
+        <h6>Acreditado por</h6>
+
+        <div class="d-flex">
+          <img src="./assets/img/logo-fiap.svg" class="mx-2"
+            alt="FIAP - Faculdade de Informática e Administração Paulista" />
+          <img src="./assets/img/logo-ibm.svg" class="mx-2" alt="IBM" />
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="global-title-container d-flex flex-column align-items-center justify-content-center py-8">
+        <h2 class="global-title">"Como funciona?"</h2>
+        <p class="global-subtitle">"Combinando hardware inovador e software avançado, a LifeSustent oferece uma
+          abordagem holística para
+          o
+          monitoramento ambiental. Nosso sistema integrado é projetado para fornecer informações precisas e
+          acionáveis que
+          ajudam as autoridades municipais, organizações e cidadãos a tomar decisões informadas e promover uma
+          mudança
+          positiva."</p>
+      </div>
+      <div class="row row-cols-sm-1 row-cols-md-3 row-cols-lg-4">
+        <div class="col">
+          <div class="card">
+            <img class="card-image" src="assets/img/hiw-realtime.svg" class="card-img-top"
+              alt="Monitoramento em tempo real" />
+            <div class="card-body">
+              <h5 class="card-title">Monitoramento em tempo real</h5>
+              <p class="card-text">Tenha acesso a dados atualizados e precisos sobre a qualidade do ar, da
+                água e a sonoridade em sua cidade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-image" src="./assets/img/hiw-analysis.svg" class="card-img-top"
+              alt="Análises avançadas e insights" />
+            <div class="card-body">
+              <h5 class="card-title">Análises avançadas e insights</h5>
+              <p class="card-text">Utiliza inteligência artificial para analisar grandes volumes de dados
+                e fornecer insights valiosos. Identifique padrões, tendências e tome medidas proativas
+                para melhorar a qualidade ambiental.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-image" src="./assets/img/hiw-predict.svg" class="card-img-top"
+              alt="Previsão e aconselhamento inteligente" />
+            <div class="card-body">
+              <h5 class="card-title">Previsão e aconselhamento inteligente</h5>
+              <p class="card-text">Nossa plataforma é capaz de prever tendências futuras com base em dados
+                históricos e fornecer aconselhamento personalizado. Obtenha sugestões práticas para
+                promover ações preventivas e melhorar a sustentabilidade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-image" src="./assets/img/hiw-colab.svg" class="card-img-top"
+              alt="Colaboração e integração" />
+            <div class="card-body">
+              <h5 class="card-title">Colaboração e integração</h5>
+              <p class="card-text">Possui solução flexível e colaborativa. Integre nossos dados com outras
+                plataformas e aproveite nossa API aberta para promover a troca de informações e a
+                cooperação entre diferentes partes interessadas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container d-flex">
+      <div class="row align-items-center p-4 flex-fill">
+        <div class="col-md col-sm-12 pt-2">
+          <img class="img-fluid" src="assets/img/fill-software.png" alt="Interface intuitiva e personalizável" />
+        </div>
+
+        <div class="col-md col-sm-12">
+          <h1 id="fill-title" class="text-secondary">Interface intuitiva e personalizável</h1>
+          <h4 id="fill-subtitle" class="mb-4">Nossa interface de usuário é intuitiva e altamente
+            personalizável para atender às necessidades específicas de
+            sua cidade. Visualize dados de maneira clara e simplificada, permitindo uma compreensão fácil e
+            rápida.</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="global-title-container d-flex flex-column align-items-center justify-content-center py-8">
+        <h2 class="global-title">Caso de uso</h2>
+        <p class="global-subtitle">A cidade de Urbana está enfrentando desafios relacionados à qualidade do ar em
+          uma área específica da região
+          central. A fim de abordar esse problema e tomar medidas adequadas, a LifeSustent oferece seu software de
+          monitoramento da qualidade do ar para ajudar as autoridades municipais a avaliar e melhorar a situação
+          em alguns
+          passos."</p>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <h4>Configuração do sistema</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">As autoridades municipais instalam sensores de qualidade do ar em
+              pontos estratégicos da área problemática.</li>
+            <li class="usecase-item">Os sensores são conectados à plataforma LifeSustent, que coleta e
+              processa os dados em tempo real.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Monitoramento contínuo</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">O software LifeSustent monitora e registra a concentração de poluentes
+              atmosféricos, como dióxido de nitrogênio (NO2), material particulado (PM2.5/PM10) e ozônio
+              (O3), provenientes dos sensores instalados.</li>
+            <li class="usecase-item">Os dados são atualizados em tempo real e armazenados na plataforma para
+              análise posterior.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Análise e visualização dos dados</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">O software LifeSustent analisa os dados coletados, identificando
+              tendências, padrões e picos de poluição do ar.</li>
+            <li class="usecase-item">A plataforma fornece uma interface intuitiva e personalizável, onde as
+              autoridades municipais podem visualizar os dados em gráficos claros e compreensíveis.</li>
+            <li class="usecase-item">São fornecidos alertas automáticos sempre que os níveis de poluentes
+              atingirem valores preocupantes, permitindo uma resposta rápida.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Análise de tendências e histórico</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">O software LifeSustent oferece ferramentas para análise de séries
+              temporais, permitindo que as autoridades municipais identifiquem mudanças ao longo do tempo
+              e compreendam a evolução da qualidade do ar.</li>
+            <li class="usecase-item">Os dados históricos são utilizados para identificar sazonalidades,
+              relacionar eventos climáticos com a poluição do ar e obter insights valiosos.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Aconselhamento e tomada de decisão</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">Com base nas análises dos dados coletados, o software LifeSustent
+              utiliza algoritmos de inteligência artificial para fornecer aconselhamento personalizado às
+              autoridades municipais.</li>
+            <li class="usecase-item">Recomendações específicas são oferecidas para melhorar a qualidade do
+              ar, como ajustar padrões de tráfego, incentivar o uso de transportes públicos ou implementar
+              medidas de redução de emissões.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h4>Monitoramento de progresso e relatórios</h4>
+          <ul class="usecase-list">
+            <li class="usecase-item">A plataforma LifeSustent permite que as autoridades municipais
+              monitorem o progresso das ações tomadas para melhorar a qualidade do ar.</li>
+            <li class="usecase-item">Relatórios completos e personalizáveis podem ser gerados, fornecendo
+              informações sobre o impacto das medidas implementadas e a eficácia das estratégias adotadas.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="footnote" class="d-flex justify-content-center">
+        <p id="footnote-text">Com o uso do software LifeSustent para monitoramento da qualidade do ar, as
+          autoridades municipais de Urbana
+          podem ter uma visão abrangente e atualizada da situação, permitindo uma abordagem proativa e
+          eficiente na
+          melhoria da qualidade do ar na área urbana específica.</p>
+      </div>
+    </section>
+
+    <section class="contact-container">
+      <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 justify-content-between">
+          <div class="col">
+            <h3 class="contact-title">Não perca mais tempo!</h3>
+            <p class="contact-subtitle">Junte-se a nós e seja parte da mudança em direção a uma cidade mais
+              sustentável. Agende uma demonstração da
+              LifeSustent hoje mesmo e descubra como podemos transformar sua cidade em um ambiente mais
+              saudável e próspero
+              para todos.</p>
+          </div>
+
+          <form class="col">
+            <div class="d-flex flex-column justify-content-end align-items-end">
+              <div class="contact-form-control mb-3">
+                <input type="name" id="name" class="form-control" placeholder="name" />
+              </div>
+
+              <div class="contact-form-control mb-3">
+                <input type="email" id="email" class="form-control" placeholder="e-mail" />
+              </div>
+
+
+              <button type="submit" class="contact-button btn btn-primary rounded-pill">Agendar
+                demonstração <i class="bi bi-calendar ml-4"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-between">
+          <a class="logo-link" href="/">
+            <img src="assets/img/logo-inverse.svg" alt="LifeSustent" />
+            <p class="m-0">Todos os direitos reservados.</p>
+          </a>
+          <p class="footer-text m-0">Feito com &lt;3 na Fiap</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
