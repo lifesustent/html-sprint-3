@@ -1,0 +1,13 @@
+{
+  "name": "html-sprint-4",
+  "version": "1.0.0",
+  "description": "Sprint utilizando o projeto base do LifeSustent para execução.",
+  "scripts": {
+    "sass": "sass --watch ./src/scss/global.scss ./src/css/global.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
